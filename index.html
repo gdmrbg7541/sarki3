@@ -183,6 +183,14 @@
 </div>
 
 <script>
+    
+    // SCORM API simülasyonu veya kontrolü
+window.onload = function() {
+    // LMS sistemine bağlandığımızı haber veriyoruz
+    console.log("Etkinlik yüklendi.");
+    // Eğer bir SCORM API'si kullanıyorsan buraya LMSInitialize("") gelmeli
+};
+   
     const video = document.getElementById('mainVideo');
     const viewport = document.getElementById('video-viewport');
     const fsBtn = document.getElementById('full-screen-trigger');
